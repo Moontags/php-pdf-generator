@@ -15,7 +15,7 @@ This project is a simple PHP application that generates a PDF file based on user
 
 ### Generated PDF
 
-![Generated PDF](sandbox:/mnt/data/invoice_example_1.png)
+![Generated PDF](sandbox:/mnt/data/invoice_images/1.png)
 
 ## CSS:
 
