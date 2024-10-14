@@ -29,9 +29,6 @@ This project is a simple PHP application that generates a PDF file based on user
 
 - ## Acknowledgements
 
-Special thanks to Dave Hollingworth for his support and contributions to this project.
-
-
 ## Example Code
 
 ```php
