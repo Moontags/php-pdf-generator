@@ -11,11 +11,11 @@ This project is a simple PHP application that generates a PDF file based on user
 
 ### Example Form
 
-![Example Form](sandbox:/mnt/data/invoice_example_2.png)
+![Example Form](images/2.png)
 
 ### Generated PDF
 
-![Generated PDF](sandbox:/mnt/data/invoice_images/1.png)
+![Generated PDF](images/1.png)
 
 ## CSS:
 
@@ -26,6 +26,11 @@ This project is a simple PHP application that generates a PDF file based on user
 
 - PHP 7.4 or higher
 - Composer for managing dependencies
+
+- ## Acknowledgements
+
+Special thanks to Dave Hollingworth for his support and contributions to this project.
+
 
 ## Example Code
 
@@ -58,3 +63,6 @@ $dompdf->render();
 $dompdf->addInfo("Title", "An Example PDF");
 
 $dompdf->stream("example.pdf", ["Attachment" => 0]);
+
+
+
