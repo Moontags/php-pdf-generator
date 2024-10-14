@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/gutenberg-css@0.7">
+  <title>Document</title>
+  <style>
+    
+    table {
+      width: 100%;
+      font-size: 30px;
+    }
+    footer {
+      text-align: center;
+      font-style: italic;
+      font-size: 26px;
+    }
+
+    p {
+      font-size: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <img src="example.png" alt="example">
+
+  <h1>Invoice</h1>
+
+  <p>Name: {{ name }}</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Product</th>
+        <th>Quantity</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>A sample product</td>
+        <td style="text-align: right">{{ quantity }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer>
+    This is an example
+  </footer>
+  
+</body>
+</html>

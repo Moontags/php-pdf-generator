@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+
+  <style>
+    body {
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    form {
+      width: 300px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+      margin-top: 10px;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      font-size: 18px;
+      border-radius: 5px;
+      border: 1px solid #b3b2b2;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-top: 10px;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 18px;
+      border-radius: 5px;
+      background-color: #4CAF50; /* Taustaväri */
+      color: white; /* Tekstin väri */
+      border: none; /* Poistetaan reunus */
+      cursor: pointer; /* Näytetään osoitin kursorina */
+      transition: background-color 0.3s ease; /* Animaatio hoverille */
+    }
+    
+    button:hover {
+      background-color: #45a049; /* Tummempi vihreä hover-tilassa */
+    }
+    
+    button:active {
+      background-color: #3e8e41; /* Vielä tummempi vihreä klikkauksen aikana */
+    }
+    
+  </style>
+</head>
+<body>
+  <form action="index.php" method="post">
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name">
+
+    <label for="quantity">Quantity</label>
+    <input type="text" name="quantity" id="quantity">
+
+    <button>Generate PDF</button>
+  </form>
+</body>
+</html>
